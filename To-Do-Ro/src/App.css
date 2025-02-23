@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   text-align: center;
 }
 
@@ -43,4 +43,43 @@
 
 #task{
   cursor: pointer;;
+}
+
+#timer{
+  button{
+    margin: 10px;
+  }
+  #clock{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 30px;
+    h1{
+      font-size: 4em;
+      margin: 10px;
+      padding: 40px;
+    }
+  }
+}
+
+#to-do{
+  input{
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 0.6em 1.2em;
+  }
+}
+
+#to-do, #timer{
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.25em;
+  }
 }
