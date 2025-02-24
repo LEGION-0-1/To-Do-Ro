@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Button from './button.jsx';
+import Button from './Button.jsx';
 
 function Timer() {
     const [workMinutes, setWorkMinutes] = useState(25);
